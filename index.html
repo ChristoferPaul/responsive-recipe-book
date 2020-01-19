@@ -4,19 +4,59 @@
   <meta charset="utf-8">
   <title>Cookies for Santa</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="favicon-196.png">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header>
-    <div class="main">
-      <ul>
-        <li> <a href="#">Home</a></li>
-        <li> <a href="#">Ginger Sparkle Cookies</a></li>
-        <li> <a href="#">Brandy Snaps</a></li>
-        <li> <a href="#">Spiced Chocolate Crinkle Cookies</a></li>
-        <li> <a href="#">Chocolate Chip Cookies</a></li>
-      </ul>
+  <div class= "cookies">
+    <div class="nav-bar">
+      <div class="nav-logo">
+        <img src="images/logo.png" alt="">
+    </div>
+      <div class="nav-links" id="nav-links">
+        <i class="fa fa-close" onclick="closeMenu()"></i>
+        <ul>
+          <a href="#"><li>HOME</li></a>
+          <a href="#"><li>ABOUT</li></a>
+          <a href="#"><li>RECIPES</li></a>
+        </ul>
+        <button type="button" class="btn">SIGN UP</button>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+  </div>
+  <div class= "banner-title">
+    <h1> Fabulously festive <span> holiday cookie recipes </span> — plus how to freeze and ship them right!</h1>
+    <button type="button" class="btn">EXPLORE</button>
+  </div>
+    <div class="vertical-bar">
+      <div class= "search-icon">
+        <i class="fa fa-th-list"></i>
+        <i class="fa fa-search"></i>
+      </div>
+      <div class= "social-icon">
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-pinterest"></i>
+    </div>
+  </div>
+    <script>
+    var show = document.getElementById("nav-links");
+    function showMenu(){
+      show.style.right = "0";
+
+    }
+    function closeMenu(){
+      show.style.right = "-200px";
+
+    }
+    </script>
+  </div>
 </body>
 </html>
