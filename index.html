@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Cookies for Santa</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://use.typekit.net/htq6gsn.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
@@ -22,9 +23,9 @@
       <div class="nav-links" id="nav-links">
         <i class="fa fa-close" onclick="closeMenu()"></i>
         <ul>
-          <a href="#"><li>HOME</li></a>
-          <a href="#"><li>ABOUT</li></a>
-          <a href="#"><li>RECIPES</li></a>
+          <li><a class="current" href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="cards.html">RECIPES</a></li>
         </ul>
         <button type="button" class="btn">SIGN UP</button>
       </div>
@@ -50,11 +51,9 @@
     var show = document.getElementById("nav-links");
     function showMenu(){
       show.style.right = "0";
-
     }
     function closeMenu(){
       show.style.right = "-200px";
-
     }
     </script>
   </div>

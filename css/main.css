@@ -27,7 +27,7 @@ html {
 
 .nav-logo img{
   width: 15.625em;
-  margin-left: 0.313em;
+  margin-left: 0.813em;
 }
 
 .nav-links {
@@ -43,12 +43,17 @@ html {
   list-style: none;
   display: inline-block;
   padding: 0.500em 1.563em;
+  margin-top: .5em;
+  margin-left: .8em;
 }
 
 .nav-links ul a {
   color: #fff;
   text-decoration: none;
   font-size: 	0.8125rem;
+  font-family: urbane, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .nav-links ul li::after{
@@ -66,11 +71,14 @@ html {
 }
 
 .btn {
-  padding: 0.625em 1.250em;
+  padding: 0.225em 1.250em;
   border: 0;
   background: red;
-  font-weight: bold;
   cursor: pointer;
+  margin-top: .5em;
+  font-family: urbane, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .nav-links .btn {
@@ -78,14 +86,17 @@ html {
 }
 
 .banner-title {
-  margin: 5.000em 8.125em;
+  margin: 1.000em 8.125em;
   color: white;
 }
 
 .banner-title h1{
+  font-family: urbane, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 4rem;
-  margin-bottom: 1.875em;
-  line-height: 1;
+  margin-bottom: .5em;
+  line-height: 1.1;
 }
 
 .banner-title h1 span{
@@ -106,7 +117,7 @@ html {
 }
 
 .search-icon .fa{
-  margin: 2.813em 1.438em;
+  margin: 2.813em .9em;
   display: block;
   color: #fff;
   font-size: 1.875rem;
@@ -118,13 +129,13 @@ html {
   width: 5.000em;
   background: red;
   text-align: center;
-  padding-top: 27%;
+  padding-top: 18%;
   bottom: 0;
   position: absolute;
 }
 
 .social-icon .fa {
-  margin: 0.938em 1.438em;
+  margin: 0.575em 1.438em;
   display: block;
   padding: 0.500em;
   border: 0.063em solid #000;
