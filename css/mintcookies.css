@@ -13,7 +13,7 @@ html {
 
 .cookies {
   height: 100vh;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) ,url("../images/3.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) ,url("../images/mint.jpg");
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
@@ -104,48 +104,73 @@ html {
   color: red;
 }
 
-.vertical-bar {
-  height: 100%;
-  background: #000;
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-
-.search-icon {
-  height: 60%;
-  width: 5.000em;
-}
-
-.search-icon .fa{
-  margin: 2.813em .9em;
-  display: block;
+h2, h4{
+  font-family: urbane, sans-serif;
+  font-weight: 700;
   color: #fff;
-  font-size: 1.875rem;
-  cursor: pointer;
+  margin-bottom: 0;
+  margin-top: .5em;
 }
 
-.social-icon {
-  height: 35%;
-  width: 5.000em;
-  background: red;
+h1 {
+  font-family: urbane, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 2rem;
+  color: red;
+}
+h3 {
+  font-family: poynter-oldstyle-display, serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+
+
+p {
+  font-family: poynter-oldstyle-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: .9rem;
+  margin-bottom: 0;
+}
+
+h5, p {
+  display: flex;
+}
+
+footer p {
+  color: #fff;
+}
+
+.recipe-img {
+  height: 40em;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: black ;
   text-align: center;
-  padding-top: 18%;
-  bottom: 0;
-  position: absolute;
+  padding: .5rem  .25rem;
+  transition: background-color .5s ease;
+  padding-top: .3rem;
 }
 
-.social-icon .fa {
-  margin: 0.575em 1.438em;
-  display: block;
-  padding: 0.500em;
-  border: 0.063em solid #000;
-  border-radius: 50%;
-  cursor: pointer;
+.footer:hover {
+  background-color: black ;
 }
 
-.nav-bar .fa {
-  display: none;
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: urbane, sans-serif;
+  font-weight: 700;
+  font-size: 0.5rem;
+  margin-bottom: .5em;
+
 }
 
 @media (max-width: 43.750em) {
@@ -197,10 +222,6 @@ html {
   .nav-logo {
     margin-top: .5em;
   }
-}
-
-.red {
-  font-style: italic;
 }
 
 @media only screen
@@ -258,48 +279,14 @@ html {
     }
 }
 
-.footer {
-  background-color: black ;
-  text-align: center;
-  padding: .5rem .25rem;
-  transition: background-color .5s ease;
-  padding-top: .3rem;
-}
-
-.footer:hover {
-  background-color: black ;
-}
-
-.footer a {
-  text-decoration: none;
-  color: #fff;
+.number {
+  margin-right: 0.3em;
   font-family: urbane, sans-serif;
   font-weight: 700;
-  font-size: 0.5rem;
-  margin-bottom: .5em;
-
 }
 
-h5 {
+.servings {
   font-family: urbane, sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: white;
-}
-
-p {
-  font-family: poynter-oldstyle-display, serif;
   font-weight: 400;
-  font-style: normal;
-  color: white;
-  font-size: .9rem;
-}
-
-h5, p {
-  display: flex;
-}
-
-.degrees {
-  content: "\00B0";
-  margin-right: 0.1em;
+  font-size: 0.7rem;
 }
