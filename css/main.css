@@ -13,7 +13,7 @@ html {
 
 .cookies {
   height: 100vh;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) ,url("../images/3.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) ,url("../images/tree.jpg");
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
@@ -100,7 +100,7 @@ html {
   line-height: 1.1;
 }
 
-.banner-title h1 span{
+.banner-title h1 span {
   color: red;
 }
 
@@ -117,7 +117,7 @@ html {
   width: 5.000em;
 }
 
-.search-icon .fa{
+.search-icon .fa {
   margin: 2.813em .9em;
   display: block;
   color: #fff;
@@ -159,22 +159,22 @@ html {
   .banner-title h1 {
     font-size: 3.125rem;
   }
-  .nav-bar{
+  .nav-bar {
     padding: 0.625em 1.875em;
   }
-  .fa-bars{
+  .fa-bars {
     position: absolute;
     right: .1em;
     top: 0.625em;
   }
-  .nav-bar .fa{
+  .nav-bar .fa {
     display: block;
     color: #fff;
     margin: 0.625em 1.563em;
     font-size: 1.375rem;
     cursor: pointer;
   }
-  .nav-links{
+  .nav-links {
     height: 100vh;
     width: 12.500em;
     background: #000;
@@ -185,10 +185,10 @@ html {
     z-index: 2;
     transition: 0.5s;
   }
-  .nav-links ul a{
+  .nav-links ul a {
     display: block;
   }
-  .nav-links .btn{
+  .nav-links .btn {
     float: none;
     margin-left: 1.563em;
     margin-top: 0.625em;
@@ -196,6 +196,10 @@ html {
 
   .nav-logo {
     margin-top: .5em;
+  }
+
+  .current {
+    margin-left: 0;
   }
 }
 
@@ -217,22 +221,22 @@ and (-webkit-min-device-pixel-ratio: 1) {
   .banner-title h1 {
     font-size: 3.125rem;
   }
-  .nav-bar{
+  .nav-bar {
     padding: 0.625em 1.875em;
   }
-  .fa-bars{
+  .fa-bars {
     position: absolute;
     right: 1.250em;
     top: 0.625em;
   }
-  .nav-bar .fa{
+  .nav-bar .fa {
     display: block;
     color: #fff;
     margin: 0.625em 1.563em;
     font-size: 1.375rem;
     cursor: pointer;
   }
-  .nav-links{
+  .nav-links {
     height: 100vh;
     width: 12.500em;
     background: #000;
@@ -244,10 +248,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
     transition: 0.5s;
     margin-right: .5em;
   }
-  .nav-links ul a{
+  .nav-links ul a {
     display: block;
   }
-  .nav-links .btn{
+  .nav-links .btn {
     float: none;
     margin-left: 1.563em;
     margin-top: 0.625em;
@@ -255,6 +259,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
   .nav-logo {
     margin-left: 11em;
     margin-top: .5em;
+  }
+
+  .current {
+    margin-left: 0;
   }
 }
 
@@ -280,11 +288,12 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 }
 
-h5 {
+h3 {
   font-family: urbane, sans-serif;
   font-weight: 700;
   font-size: 1rem;
   color: white;
+  margin-bottom: 0;
 }
 
 p {
@@ -295,11 +304,46 @@ p {
   font-size: .9rem;
 }
 
-h5, p {
+h3, p {
   display: flex;
 }
 
-.degrees {
-  content: "\00B0";
-  margin-right: 0.1em;
+.push-11-2 {
+  margin-bottom: 1.95rem;
+}
+
+.hover-box {
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: red;
+}
+
+.hover-box-caption {
+  color: #fff;
+}
+
+.hover-box:hover .hover-box-caption {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.hover-box-img {
+  transition: all .3s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  transform: scale(1.1);
+}
+
+h4 {
+  color: #fff;
+  font-family: urbane, sans-serif;
+  font-weight: 700;
+}
+
+h5 {
+  color: #fff;
+  font-family: urbane, sans-serif;
+  font-weight: 400;
 }
