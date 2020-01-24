@@ -4,6 +4,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  align-items: left;
 }
 
 *, *::before, *::after {
@@ -96,8 +97,8 @@ html {
   font-weight: 700;
   font-style: normal;
   font-size: 4rem;
-  margin-bottom: .5em;
-  line-height: 1.1;
+  margin-bottom: .3em;
+  line-height: 1;
 }
 
 .banner-title h1 span {
@@ -267,25 +268,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 .footer {
-  background-color: black ;
   text-align: center;
-  padding: .5rem .25rem;
-  transition: background-color .5s ease;
-  padding-top: .3rem;
-}
-
-.footer:hover {
-  background-color: black ;
 }
 
 .footer a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-family: urbane, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 0.5rem;
   margin-bottom: .5em;
-
 }
 
 h3 {
@@ -302,6 +294,10 @@ p {
   font-style: normal;
   color: white;
   font-size: .9rem;
+  margin-bottom: 0.8em;
+  line-height: 1.3;
+  vertical-align: baseline;
+  margin-left: 0;
 }
 
 h3, p {
@@ -340,10 +336,16 @@ h4 {
   color: #fff;
   font-family: urbane, sans-serif;
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 h5 {
   color: #fff;
   font-family: urbane, sans-serif;
   font-weight: 400;
+}
+
+h2 {
+  margin-bottom: 0.5;
+  line-height: 1;
 }
